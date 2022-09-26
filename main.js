@@ -1,7 +1,9 @@
 const img = document.getElementsByTagName('img');
 let seconds;
 
-let mX, mY, distance, $distance = $('#distancia span'), $element = $('#img-messi');
+let mX, mY, distance, 
+    $distance = $('#distancia span'), 
+    $element = $('#img-messi');
 
 function calculateDistance(elem, mouseX, mouseY) {
     return Math.floor(Math.sqrt(Math.pow(mouseX - (elem.offset().left + (elem.width() / 2)), 2) + Math.pow(mouseY - (elem.offset().top + (elem.height() / 2)), 2)));
