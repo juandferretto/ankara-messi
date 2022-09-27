@@ -24,11 +24,15 @@ body{
     height: 50%;
 }
 
-img{
+#img-messi{
     position: absolute;
     opacity: 0;
     cursor: pointer;
     width: 3vw;
+}
+
+#lost-messi{
+    width: 35%;
 }
 
 button{
